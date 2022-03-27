@@ -131,7 +131,7 @@ a {
   height: 126px;
   top: 300px;
   display: block;
-  position: absolute;
+  position: relative;
   border-radius: 120px;
 }
 
