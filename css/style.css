@@ -104,39 +104,35 @@ a {
 }
 
 .heart {
-  width: 320px;
-  height: 280px;
-  top: 30%;
+  width: 200px;
+  height: 200px;
+  top: 50%;
   left: 50%;
   z-index: 1;
   display: block;
   position: absolute;
-  transform: translate(-30%,-50%);
-  animation: heart 1s ease infinite;
-    
+  transform: translate(-50%,-50%);
+  animation: heart 1s ease infinite
 }
 
 @keyframes heart {
   96% {
-    transform: translate(-30%,-50%) scale(.8,.8)
+    transform: translate(-50%,-50%) scale(.8,.8)
   }
 
   100% {
-    transform: translate(-30%,-50%) scale(1,1)
+    transform: translate(-50%,-50%) scale(1,1)
   }
 }
 
 .heart div {
-  background: #ff0000;
-  width: 100px;
-  height: 120px;
+  background: red;
+  width: 71px;
+  height: 126px;
+  top: 40px;
   display: block;
   position: absolute;
-  left: calc(50% - 100px);
-  margin-top: 3rem;
-  border-radius: 120px;
-  border: 5px solid rgb(255, 17, 0);
-  box-shadow: 0 0 30px #eee;
+  border-radius: 50%
 }
 
 .left {
