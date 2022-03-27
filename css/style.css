@@ -106,7 +106,7 @@ a {
 .heart {
   width: 200px;
   height: 200px;
-  top: 50%;
+  top: 30%;
   left: 50%;
   z-index: 1;
   display: block;
@@ -131,7 +131,7 @@ a {
   height: 126px;
   top: 300px;
   display: block;
-  position: relative;
+  position: absolute;
   border-radius: 120px;
 }
 
