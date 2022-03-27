@@ -127,7 +127,7 @@ a {
 }
 
 .heart div {
-  background: red;
+  background: #ff0000;
   width: 100px;
   height: 120px;
   display: block;
