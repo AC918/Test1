@@ -132,6 +132,7 @@ a {
   display: block;
   position: absolute;
   border-radius: 120px;
+  margin-top: 3rem;
 }
 
 .left {
