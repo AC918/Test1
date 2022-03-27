@@ -103,15 +103,44 @@ a {
     text-decoration: none;
 }
 
-.cover {
-    width: 240px;
-    height: 240px;
-   
-    box-shadow: 0 0 30px #eee;
-    position: absolute;
-    margin-top: 3rem;
-    left: calc(50% - 100px);
-  
-    border-radius: 120px;
-    border: 5px solid rgb(255, 17, 0);
+.heart {
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  display: block;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  animation: heart 1s ease infinite
+}
+
+@keyframes heart {
+  96% {
+    transform: translate(-50%,-50%) scale(.8,.8)
+  }
+
+  100% {
+    transform: translate(-50%,-50%) scale(1,1)
+  }
+}
+
+.heart div {
+  background: red;
+  width: 71px;
+  height: 126px;
+  top: 40px;
+  display: block;
+  position: absolute;
+  border-radius: 50%
+}
+
+.left {
+  left: 45px;
+  transform: rotate(330deg);
+}
+
+.right {
+  right: 45px;
+  transform: rotate(30deg);
 }
