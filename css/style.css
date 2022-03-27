@@ -132,12 +132,12 @@ a {
   top: 300px;
   display: block;
   position: absolute;
-  border-radius: 50%
+  border-radius: 120px;
 }
 
 .left {
   left: 45px;
-  transform: rotate(330deg);
+  transform: rotate(30deg);
 }
 
 .right {
