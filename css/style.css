@@ -117,11 +117,11 @@ a {
 
 @keyframes heart {
   96% {
-    transform: translate(-50%,-50%) scale(.8,.8)
+    transform: translate(-30%,-50%) scale(.8,.8)
   }
 
   100% {
-    transform: translate(-50%,-50%) scale(1,1)
+    transform: translate(-30%,-50%) scale(1,1)
   }
 }
 
