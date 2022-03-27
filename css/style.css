@@ -106,8 +106,7 @@ a {
 .heart {
   width: 200px;
   height: 200px;
-  top: 30%;
-  left: 50%;
+  left: calc(50% - 100px);
   z-index: 1;
   display: block;
   position: absolute;
