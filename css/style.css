@@ -106,7 +106,6 @@ a {
 .heart {
   width: 200px;
   height: 200px;
-  left: calc(50% - 100px);
   z-index: 1;
   display: block;
   position: absolute;
@@ -131,13 +130,14 @@ a {
   top: 300px;
   display: block;
   position: absolute;
-  border-radius: 120px;
+  left: calc(50% - 100px);
   margin-top: 3rem;
+  border-radius: 120px;
 }
 
 .left {
   left: 45px;
-  transform: rotate(30deg);
+  transform: rotate(330deg);
 }
 
 .right {
