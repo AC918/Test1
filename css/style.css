@@ -104,24 +104,24 @@ a {
 }
 
 .heart {
-  width: 200px;
-  height: 200px;
-  top: 50%;
+  width: 400px;
+  height: 400px;
+  top: 30%;
   left: 50%;
   z-index: 1;
   display: block;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-30%,-50%);
   animation: heart 1s ease infinite
 }
 
 @keyframes heart {
   96% {
-    transform: translate(-50%,-50%) scale(.8,.8)
+    transform: translate(-30%,-50%) scale(.8,.8)
   }
 
   100% {
-    transform: translate(-50%,-50%) scale(1,1)
+    transform: translate(-30%,-50%) scale(1,1)
   }
 }
 
