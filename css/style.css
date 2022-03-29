@@ -104,8 +104,8 @@ a {
 }
 
 .heart {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   top: 30%;
   left: 50%;
   z-index: 1;
@@ -127,8 +127,8 @@ a {
 
 .heart div {
   background: #ff0000;
-  width: 180px;
-  height: 220px;
+  width: 220px;
+  height: 260px;
   top: 30px;
   display: block;
   position: absolute;
@@ -136,11 +136,11 @@ a {
 }
 
 .left {
-  left: 45px;
+  left: 50px;
   transform: rotate(330deg);
 }
 
 .right {
-  right: 45px;
+  right: 50px;
   transform: rotate(30deg);
 }
