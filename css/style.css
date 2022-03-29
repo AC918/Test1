@@ -136,11 +136,11 @@ a {
 }
 
 .left {
-  left: 50px;
+  left: 55px;
   transform: rotate(330deg);
 }
 
 .right {
-  right: 50px;
+  right: 55px;
   transform: rotate(30deg);
 }
