@@ -127,9 +127,9 @@ a {
 
 .heart div {
   background: #ff0000;
-  width: 71px;
-  height: 126px;
-  top: 40px;
+  width: 180px;
+  height: 220px;
+  top: 30px;
   display: block;
   position: absolute;
   border-radius: 50%
