@@ -104,8 +104,8 @@ a {
 }
 
 .heart {
-  width: 400px;
-  height: 400px;
+  width: 160px;
+  height: auto;
   top: 30%;
   left: 48%;
   z-index: 1;
