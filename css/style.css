@@ -107,21 +107,21 @@ a {
   width: 400px;
   height: 400px;
   top: 30%;
-  left: 47%;
+  left: 48%;
   z-index: 1;
   display: block;
   position: absolute;
-  transform: translate(-30%,-47%);
+  transform: translate(-30%,-48%);
   animation: heart 1s ease infinite
 }
 
 @keyframes heart {
   96% {
-    transform: translate(-30%,-47%) scale(.8,.8)
+    transform: translate(-30%,-48%) scale(.8,.8)
   }
 
   100% {
-    transform: translate(-30%,-47%) scale(1,1)
+    transform: translate(-30%,-48%) scale(1,1)
   }
 }
 
@@ -136,11 +136,11 @@ a {
 }
 
 .left {
-  left: 55px;
+  left: 60px;
   transform: rotate(330deg);
 }
 
 .right {
-  right: 55px;
+  right: 60px;
   transform: rotate(30deg);
 }
