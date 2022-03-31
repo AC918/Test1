@@ -104,32 +104,32 @@ a {
 }
 
 .heart {
-  width: 160px;
+  width: 150px;
   height: auto;
   top: 30%;
-  left: 48%;
+  left: 50%;
   z-index: 1;
   display: block;
   position: absolute;
-  transform: translate(-30%,-48%);
+  transform: translate(-30%,-50%);
   animation: heart 1s ease infinite
 }
 
 @keyframes heart {
   96% {
-    transform: translate(-30%,-48%) scale(.8,.8)
+    transform: translate(-30%,-50%) scale(.8,.8)
   }
 
   100% {
-    transform: translate(-30%,-48%) scale(1,1)
+    transform: translate(-30%,-50%) scale(1,1)
   }
 }
 
 .heart div {
-  background: #ff0000;
-  width: 250px;
-  height: 320px;
-  top: 30px;
+  background: red;
+  width: 250;
+  height: 305px;
+  top: 40px;
   display: block;
   position: absolute;
   border-radius: 50%
