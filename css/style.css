@@ -113,6 +113,7 @@ a {
   position: absolute;
   transform: translate(-50%,-50%);
   animation: heart 1s ease infinite
+  video.cangiua {display: block; margin-left: auto; margin-right: auto;}
 }
 
 @keyframes heart {
