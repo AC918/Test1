@@ -103,44 +103,22 @@ a {
     text-decoration: none;
 }
 
-.heart {
-  width: 300px;
-  height: 250px;
-  top: 30%;
-  left: 50%;
-  z-index: 1;
-  display: block;
-  position: absolute;
-  transform: translate(-50%,-50%);
-  animation: heart 1s ease infinite
-}
-
-@keyframes heart {
-  96% {
-    transform: translate(-50%,-50%) scale(.8,.8)
-  }
-
-  100% {
-    transform: translate(-50%,-50%) scale(1,1)
-  }
-}
-
 .heart div {
   background: #ff0000;
-  width: 252px;
-  height: 312px;
-  top: 0px;
+  width: 250px;
+  height: 350px;
+  bottom: 0px;
   display: block;
   position: absolute;
   border-radius: 90%
 }
 
 .left {
-  left: 50px;
-  transform: rotate(40deg);
+  left: 0px;
+  transform: rotate(30deg);
 }
 
 .right {
-  right: 50px;
-  transform: rotate(320deg);
+  right: 00px;
+  transform: rotate(330deg);
 }
