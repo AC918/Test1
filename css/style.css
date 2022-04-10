@@ -137,10 +137,10 @@ a {
 
 .left {
   left: 0px;
-  transform: rotate(30deg);
+  transform: rotate(40deg);
 }
 
 .right {
   right: 00px;
-  transform: rotate(330deg);
+  transform: rotate(320deg);
 }
