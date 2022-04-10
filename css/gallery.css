@@ -53,9 +53,9 @@ body {
   }
 .gallery video {
     max-width: 80%;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 16px #fff3f3;
-    transition: all 1.5s ease;
+    transition: all 5.5s cubic-bezier(0.25, 0.1, 0.6, 1.55);
   }
   .gallery video:hover {
     box-shadow: 0 0 32px #858585;
