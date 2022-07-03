@@ -104,15 +104,15 @@ a {
 }
 
 .heart {
-  width: 150px;
+  width: 350px;
   height: 350px;
   top: 30%;
   left: 50%;
   z-index: 1;
-  display: block;
   position: absolute;
   transform: translate(-50%,-50%);
-  animation: heart 1s ease infinite
+  animation: heart 1s ease infinite;
+
 }
 
 @keyframes heart {
@@ -128,19 +128,8 @@ a {
 .heart div {
   background: #ff0000;
   width: 250px;
-  height: 350px;
-  bottom: 0px;
+  height: 350px; 
   display: block;
   position: absolute;
-  border-radius: 90%
-}
-
-.left {
-  left: 0px;
-  transform: rotate(40deg);
-}
-
-.right {
-  right: 00px;
-  transform: rotate(320deg);
+  border-radius: 90%;
 }
