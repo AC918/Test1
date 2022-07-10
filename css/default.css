@@ -10,10 +10,16 @@ body {
     color: #660086;
     overflow: auto;
 }
+html,body{
+    cursor: url("../img/chuot.png"), progress;
+}
 a {
     color: #00ff45;
     font-size: 14px;
     text-decoration: none;
+}
+a:hover{
+    cursor : url("../img/chuot.png"), progress;
 }
 #main {
     width: 100%;
