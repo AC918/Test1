@@ -3,6 +3,7 @@ body {
     background: url("../img/wood.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    position: local;
   }
   .hello {
     opacity: 1 !important;
@@ -30,7 +31,7 @@ body {
     margin: auto;
   }
   .byebye {
-    opacity: 1;
+    opacity: 2;
   }
   .byebye:hover {
     transform: scale(0.2) !important;
